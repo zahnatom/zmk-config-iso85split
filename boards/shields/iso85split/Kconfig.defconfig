@@ -1,0 +1,16 @@
+if SHIELD_ISO85SPLIT_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "ISO 85 Split"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ISO85SPLIT_LEFT || SHIELD_ISO85SPLIT_RIGHT
+    
+    config ZMK_SPLIT 
+        default y
+
+endif
