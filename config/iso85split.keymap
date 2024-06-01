@@ -12,7 +12,7 @@
             &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp U &kp I &kp O &kp P &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp DEL &kp END &kp PG_DN
             &kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp NUHS &kp F12
             &kp LEFT_SHIFT &kp NUBS &kp Z &kp X &kp C &kp V &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RSHFT &kp UP
-            &kp LEFT_CONTROL &kp LWIN &kp Y &kp LEFT_ALT &kp SPACE &kp B &kp SPACE &kp RIGHT_ALT &kp RWIN &kp KAPP &kp RCTL &kp LEFT &kp DOWN &kp UP
+            &kp LEFT_CONTROL &kp LWIN &kp Y &kp LEFT_ALT &kp SPACE &kp B &kp SPACE &kp RIGHT_ALT &kp RWIN &kp K_APP &kp RIGHT_CONTROL &kp LEFT &kp DOWN &kp UP
             >;
         };
     };
