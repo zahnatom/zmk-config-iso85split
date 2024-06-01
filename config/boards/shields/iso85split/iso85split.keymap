@@ -12,6 +12,6 @@
             &kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SCLN &kp QUOT &kp NUHS &kp F12
             &kp LSFT &kp NUBS &kp Z &kp X &kp C &kp V &kp N &kp M &kp COMM &kp DOT &kp SLSH &kp RSFT &kp UP
             &kp LCTL &kp LGUI &kp Y &kp LALT &kp SPC &kp B &kp SPC &kp RALT &kp RGUI &kp APP &kp RCTL &kp LEFT &kp DOWN &kp UP
-        }
-    }
-}
+        };
+    };
+};
