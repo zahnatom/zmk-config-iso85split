@@ -4,7 +4,7 @@
 
 &xiao_spi {
     status="okay";
-    cs-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     shifter: 595@0 {
         compatible = "zmk,gpio-595";
         status="okay";
@@ -25,11 +25,11 @@
                 <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&shifter 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&shifter 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                <&shifter 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                <&shifter 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+                <&shifter 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 };
