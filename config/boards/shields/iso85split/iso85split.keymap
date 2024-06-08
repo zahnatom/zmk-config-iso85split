@@ -25,11 +25,11 @@
         right_layer {
             bindings = <
             &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-            &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
-            &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
-            &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
-            &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
-            &none
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans
             >;
         };
     };
