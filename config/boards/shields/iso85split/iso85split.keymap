@@ -6,7 +6,7 @@
     
     &lt {
         tapping-terms-ms = <500>;
-    }
+    };
     
     keymap {
         compatible = "zmk,keymap";
