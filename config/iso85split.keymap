@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &lt {
-    tapping-terms-ms = <200>;
+    tapping-term-ms = <200>;
 };
 
 / {
