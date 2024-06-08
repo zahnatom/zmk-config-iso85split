@@ -14,12 +14,12 @@
 
         default_layer {
             bindings = < 
-            &kp ESC &kp N6 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp PSCR &kp SCRL &lt 1 PAUS
-            &kp GRV &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINS &kp EQL &kp BSPC &kp INS &kp HOME &kp PGUP
-            &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp U &kp I &kp O &kp P &kp LBRC &kp RBRC &kp ENT &kp DEL &kp END &kp PGDN
-            &kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SCLN &kp QUOT &kp NUHS &kp F12
-            &kp LSFT &kp NUBS &kp Z &kp X &kp C &kp V &kp N &kp M &kp COMM &kp DOT &kp SLSH &kp RSFT &kp UP
-            &kp LCTL &kp LGUI &kp Y &kp LALT &kp SPC &kp B &kp SPC &kp RALT &kp RGUI &kp APP &kp RCTL &kp LEFT &kp DOWN &kp UP
+            &kp ESC &kp NUMBER_6 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp PRINTSCREEN &kp SCROLLLOCK &lt 1 PAUSE_BREAK
+            &kp GRAVE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp MINUS &kp EQUAL &kp BSPC &kp INS &kp HOME &kp PG_UP
+            &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp U &kp I &kp O &kp P &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp DEL &kp END &kp PG_DN
+            &kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp NUHS &kp F12
+            &kp LEFT_SHIFT &kp NUBS &kp Z &kp X &kp C &kp V &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RSHFT &kp UP
+            &kp LEFT_CONTROL &kp LWIN &kp Y &kp LEFT_ALT &kp SPACE &kp B &kp SPACE &kp RIGHT_ALT &kp RWIN &kp K_APP &kp RIGHT_CONTROL &kp LEFT &kp DOWN &kp RIGHT
             >;
         };
 
