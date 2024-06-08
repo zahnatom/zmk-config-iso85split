@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &lt {
-    tapping-terms-ms = <500>;
+    tapping-terms-ms = <200>;
 };
 
 / {
@@ -23,7 +23,7 @@
             >;
         };
 
-        nav_layer {
+        bt_layer {
             bindings = <
             &bt BT_CLR &bt BT_SEL 0
             &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
