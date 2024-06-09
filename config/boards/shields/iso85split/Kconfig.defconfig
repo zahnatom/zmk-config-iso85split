@@ -6,8 +6,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_USB
-    default n    
+# config ZMK_USB
+#     default n    
 
 endif
 
@@ -16,4 +16,11 @@ if SHIELD_ISO85SPLIT_LEFT || SHIELD_ISO85SPLIT_RIGHT || SHIELD_ISO85SPLIT_DONGLE
     config ZMK_SPLIT 
         default y
 
-endif                                                                                                       
+endif
+
+if SHIELD_ISO85SPLIT_LEFT || SHIELD_ISO85SPLIT_RIGHT
+
+    config ZMK_PM_SOFT_OFF
+        default y
+
+endif
