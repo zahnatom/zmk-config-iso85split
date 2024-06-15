@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &lt {
-    tapping-term-ms = <200>;
+    tapping-terms-ms = <500>;
 };
 
 / {
@@ -25,12 +25,13 @@
 
         bt_layer {
             bindings = <
-            &bt BT_CLR &bt BT_SEL 0
-            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &trans &trans &trans &bt BT_SEL 0 &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR &trans &trans 
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
         };
     };
