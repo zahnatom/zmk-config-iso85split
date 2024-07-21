@@ -23,5 +23,5 @@ include:
     shield: iso85split_left
   - board: seeeduino_xiao_ble
     shield: iso85split_right
-  - board: seeeduino_xiao_ble
+  - board: nrfmicro_13
     shield: iso85split_dongle
