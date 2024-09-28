@@ -1,13 +1,13 @@
 file_format: "1"
 id: iso85split
-name: ISO 85 Split
+name: ISO85Split
 type: shield
 url: https://github.com/zahnatom/zmk-config-iso85split
-requires: [seeeduino_xiao_ble]
-exposes: []
+requires: 
+  - seeeduino_xiao_ble
+exposes: 
 features:
   - keys
 siblings:
   - iso85split_left
   - iso85split_right
-  - iso85split_dongle

@@ -6,9 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_USB
-    default y    
-
 endif
 
 if SHIELD_ISO85SPLIT_LEFT || SHIELD_ISO85SPLIT_RIGHT || SHIELD_ISO85SPLIT_DONGLE
