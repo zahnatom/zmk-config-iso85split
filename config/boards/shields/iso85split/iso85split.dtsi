@@ -7,7 +7,7 @@
         zmk,battery = &vbat;
     };
 
-    vbat {
+    vbat: vbat {
         compatible = "voltage-divider";
         io-channels = <&adc 7>;
         output-ohms = <510000>;
