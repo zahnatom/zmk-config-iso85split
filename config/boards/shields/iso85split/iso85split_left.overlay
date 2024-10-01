@@ -11,5 +11,10 @@
 };
 
 &wakeup_key {
+    wakeup-source;
+    gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+};
+
+&soft_off_key {
     gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 };
