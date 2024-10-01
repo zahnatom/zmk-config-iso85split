@@ -1,7 +1,7 @@
 #include "iso85split.dtsi"
 
 &kscan0 {
-    wakeup-source;
+    // wakeup-source;
     col-gpios = <&gpio1 15 (GPIO_ACTIVE_HIGH)>,
                 <&gpio1 14 (GPIO_ACTIVE_HIGH)>,
                 <&gpio1 13 (GPIO_ACTIVE_HIGH)>,
