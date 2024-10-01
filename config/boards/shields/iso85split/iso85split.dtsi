@@ -43,7 +43,8 @@
 
     keys {
         compatible = "gpio-keys";
-        wakeup_key: wakeup_key {            
+        wakeup_key: wakeup_key {  
+            wakeup-source;          
         };
         soft_off_key: soft_off_key {
         };
