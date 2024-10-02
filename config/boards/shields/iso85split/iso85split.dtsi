@@ -53,7 +53,7 @@
         trigger = <&soft_off_key>;
         wakeup-source;
     };
-    
+
     behaviors {
         hw_soft_off: hw_soft_off {
             compatible = "zmk,behavior-soft-off";
@@ -61,30 +61,30 @@
             hold-time-ms = <1000>;
         };
     };
-    
+
     soft_off_direct_scan: soft_off_direct_scan {
         compatible = "zmk,kscan-gpio-direct";
         input-keys = <&soft_off_key>;
         wakeup-source;
     };
-    
+
     side_band_behavior_triggers: side_band_behavior_triggers {
         compatible = "zmk,kscan-sideband-behaviors";
-        
+
         kscan = <&soft_off_direct_scan>;
         wakeup-source;
-        
+
         soft_off {
             column = <0>;
             row = <0>;
             bindings = <&hw_soft_off>;
         };
     };
-    
+
     soft_off_wakers {
         compatible = "zmk,soft-off-wakeup-sources";
         wakeup-sources = <&wakeup_source>,
-        <&soft_off_direct_scan>;
+                         <&soft_off_direct_scan>;
     };
-    
+
 };
